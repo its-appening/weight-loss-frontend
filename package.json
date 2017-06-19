@@ -1,0 +1,23 @@
+{
+  "name": "weight-loss-frontend",
+  "version": "1.0.0",
+  "description": "Frontend Logic",
+  "main": "index.js",
+  "repository": "https://github.com/its-appening/weight-loss-frontend.git",
+  "author": "KJ <xiankai@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/lodash": "^4.14.66",
+    "tslint": "^5.4.3",
+    "tslint-immutable": "^4.0.1",
+    "typescript": "^2.3.4"
+  },
+  "scripts": {
+    "lint": "tslint **/* --fix",
+    "test": "tsc && ava dist/test/**/*"
+  },
+  "dependencies": {
+    "ava": "^0.19.1",
+    "lodash": "^4.17.4"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-immutable"
+    ],
+    "rules": {
+        "interface-name": ["never-prefix"],
+        "quotemark": ["double"],
+        "no-var-keyword": true,
+        "readonly-keyword": true
+    },
+    "rulesDirectory": []
+}
