@@ -19,3 +19,6 @@
 - Add calories to cart for an item set
 - Calculate calorie total from cart
 - Make suggestions for reaching a calorie goal
+
+# Wishlist
+- Investigate web workers, on react native
