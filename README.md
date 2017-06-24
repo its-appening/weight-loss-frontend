@@ -1,3 +1,6 @@
+# Weight Loss App
+[![Build Status](https://travis-ci.org/its-appening/weight-loss-frontend.svg?branch=master)](https://travis-ci.org/its-appening/weight-loss-frontend)
+
 # Code Standard
 - Linting
 - Reasonable unit test coverage
