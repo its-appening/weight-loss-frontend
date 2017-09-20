@@ -1,12 +1,12 @@
 export interface Brand {
     readonly brand: string;
     readonly country: string;
-    readonly meals: Meal[];
+    readonly items: Item[];
 }
 
-export interface Meal {
+export interface Item {
     readonly name: string;
-    readonly mage: string;
+    readonly image: string;
     readonly calories: number;
     readonly ingredients?: Ingredient[];
 }
@@ -17,14 +17,13 @@ export interface Ingredient {
     readonly calories: number;
 }
 
-export interface SetMeal {
+export interface Meal {
     readonly name: string;
-    readonly meal: Meal;
     readonly ingredients?: Ingredient[];
     readonly calories: number;
 }
 
 export interface Cart {
-    readonly contents: SetMeal[];
+    readonly contents: Array<Meal | Item>;
     readonly calories: number;
 }

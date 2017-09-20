@@ -8,7 +8,8 @@
         "interface-name": ["never-prefix"],
         "quotemark": ["double"],
         "no-var-keyword": true,
-        "readonly-keyword": true
+        "readonly-keyword": true,
+        "ordered-imports": [false]
     },
     "rulesDirectory": []
 }

@@ -6,6 +6,26 @@ export class Store {
         calories: 0,
         contents: [],
     };
+
+    constructor() {
+        this.getAppData();
+        this.getWebData();
+    }
+
+    /*
+     * React Native
+     * If on web, this will be using localstorage instead
+     */
+    private getAppData = () => {
+
+    }
+
+    /*
+     * Google Sheets
+     */
+    private getWebData = () => {
+
+    }
 }
 
 const singleton = new Store();

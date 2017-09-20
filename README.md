@@ -5,7 +5,7 @@
 - Linting
 - Reasonable unit test coverage
 - JS Typing
-- Immutable
+- Immutability
 - ES6/7
 
 # Libraries
@@ -19,7 +19,7 @@
   - 3 sources, app, web and internal
 - Load calories for a page
 - Add calories to cart for an item
-- Add calories to cart for an item set
+- Add calories to cart for a meal / set meal 
 - Calculate calorie total from cart
 - Make suggestions for reaching a calorie goal
 
